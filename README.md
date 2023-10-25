@@ -1,14 +1,10 @@
-# adspower-import-metamask
+This script imports pre-created metamasks into your ready-made profiles in adspower. The script was written in a hurry, the main thing for me was that everything worked. after import it adds optimism, bsc and arbitrum networks to the wallet.
 
-данный скрипт импортирует заранее созданные метамаски в твои готовые профили в adspower. скрипт написан на скорую руку, для меня было главное чтобы все работало. после импорта он добавляет сети optimism, bsc и arbitrum в кошелек. 
+export ids from adspower from your profiles.
+add these ids to the id_users.txt file
+add seed phrases from pre-created wallets to the seeds.txt file
+change the password variable in the main.py file
+run the main.py file
+Don’t forget to log in to your adspower in advance, the script works through it.
 
-1. экспортируй ids из adspower со своих профилей.
-2. добавляешь эти ids в файл id_users.txt
-3. добавляешь сид фразы от заранее созданных кошельков в файл seeds.txt
-4. меняешь в файле main.py переменную password
-5. запускаешь файл main.py
-
-не забудь заранее войти в свой adspower, скрипт работает именно через него. 
-
-библиотеки для скачивания : 
-pip install selenium, requests, pyperclip, termcolor
+libraries for download: pip install selenium, requests, pyperclip, termcolor
